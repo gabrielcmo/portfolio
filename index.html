@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site pessoal para apresentar meus projetos de programação.">
+    <title>Meu Portfólio</title>
+    <style>
+        body {
+            font-family: Roboto;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #0061a1;
+            color: white;
+            padding: 1.5rem 1rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header p {
+            margin: 0.5rem 0 0;
+        }
+        nav {
+            margin: 1rem 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #0061a1;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 2rem 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .project {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+        header img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid white;
+            object-fit: cover;
+        }
+        .project h2 {
+            margin-top: 0;
+            color: #0061a1;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="./perfil.png" alt="Minha Foto">
+        <div>
+            <h1>Gabriel Carlos M. de Oliveira</h1>
+            <p>Matemática @ Unicamp | Desenvolvedor Web</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#sobre-mim">Sobre Mim</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <main>
+        <section id="sobre-mim">
+            <h2>Sobre Mim</h2>
+            <p>
+                Estudo Matemática na Unicamp, estou cursando o último ano da minha graduação e tenho interesse em seguir na área de matemática aplicada e computação.
+            </p>
+            <p>
+                Possuo uma bagagem técnica de dois anos de experiência com desenvolvimento web. Também tive a oportunidade de fazer parte do time operacional de uma aceleradora de startups, possuindo uma bagagem sobre empreendedorismo e desenvolvimento de produtos.
+            </p>
+            <p>
+                Durante a graduação fui bolsista PIBIC vinculado a Embrapa, onde meu projeto foi um dos três selecionados para apresentação oral no Congresso de Iniciação Científica. Minha pesquisa avaliou projeções de modelos climáticos com o propósito de estudar o impacto das mudanças climáticas.
+            </p>
+        </section>
+
+        <section id="projetos">
+            <h2>Meus Projetos</h2>
+            <div class="project">
+                <h3>Chatbot sobre Vestibular da Unicamp</h3>
+                <p>
+                    Chatbot desenvolvido para responder perguntas sobre o vestibular da Unicamp, ao interagir com o chat, 
+                    a LLM seguirá instruções pré-definidas e consultará um banco de dados para responder as perguntas do usuário.
+                </p>
+                <a href="https://github.com/gabrielcmo/chatbot-vest-unicamp" target="_blank">Repositório</a>
+            </div>
+            <div class="project">
+                <h3>Doomus</h3>
+                <p>Doomus é um trabalho de conclusão de curso dos alunos da ETEC Pedro Ferreira Alves, realizado no ano de 2019, para o curso de Informática para Internet integrado ao Ensino Médio.</p>
+                <a href="https://github.com/gabrielcmo/doomus" target="_blank">Repositório</a>
+            </div>
+            <div class="project">
+                <h3>Tec Coin</h3>
+                <p>Trabalho  3º EMIA da Expoete de 2018</p>
+                <a href="https://github.com/gabrielcmo/tec-coin" target="_blank">Repositório</a>
+            </div>
+            <div class="project">
+                <h3>Café Artesanal</h3>
+                <p>O Café Artesanal é um site desenvolvido com o framework Laravel com o propósito de anunciar café produzido artesanalmente.</p>
+                <a href="https://github.com/gabrielcmo/cafeartesanal" target="_blank">Repositório</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
